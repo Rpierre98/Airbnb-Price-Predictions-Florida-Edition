@@ -17,17 +17,10 @@ Here are some key findings from the project:
 
 - The exploratory data analysis revealed interesting insights about the dataset, such as the distribution of room types and neighborhoods, as well as the correlation between variables.
 - Feature engineering tasks, including text preprocessing, temporal feature extraction, and handling missing values, enhanced the dataset and provided valuable information for modeling.
-- The Gradient Boosting model demonstrated strong performance in predicting Airbnb prices, with a low mean squared error (MSE) and mean absolute error (MAE).
-- The LassoCV model also showed promising results, accurately estimating the daily prices of Airbnb listings.
 
 ## How to Use
 
-To replicate the project or use the provided models, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Open and run the notebooks in the provided order: EDA/Cleaning, Feature Engineering, and Modeling.
-3. Follow the instructions within each notebook to load, preprocess, analyze, and model the data.
-4. Adapt the code and models to fit your specific requirements or use the provided models for predicting Airbnb prices in Broward County.
 
 ## Dataset
 
