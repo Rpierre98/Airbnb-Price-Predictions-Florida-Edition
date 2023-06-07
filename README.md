@@ -16,7 +16,7 @@ The project consists of three Jupyter notebooks:
 Here are some key findings from the project:
 
 - The exploratory data analysis revealed interesting insights about the dataset, such as the distribution of room types and neighborhoods, as well as the correlation between variables.
-- Feature engineering tasks, including text preprocessing, temporal feature extraction, and handling missing values, enhanced the dataset and provided valuable information for modeling.
+- Feature engineering tasks, including temporal feature extraction, and handling missing values, enhanced the dataset and provided valuable information for modeling.
 
 ## How to Use
 
