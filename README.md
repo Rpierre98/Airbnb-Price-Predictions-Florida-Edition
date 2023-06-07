@@ -38,13 +38,3 @@ You can access the dataset [here](http://insideairbnb.com/get-the-data/).
 Note: Please ensure that you have the necessary permissions and comply with any applicable terms of use or licenses when accessing and using the dataset.
 
 
-## Acknowledgements
-
-The project was developed as part of a data science capstone project. The dataset used in this project was sourced from Airbnb. Special thanks to the instructors, mentors, and the open-source community for their valuable contributions.
-
-Feel free to explore the notebooks and adapt the code for your own projects or analysis. Enjoy exploring Airbnb prices in Florida!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
