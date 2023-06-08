@@ -1,4 +1,4 @@
-# Airbnb-Price-Prdeictions-Florida-Edition
+# Airbnb-Price-Predictions-Florida-Edition
 "The "Airbnb Price Predictions Florida Edition" is a data science capstone project aimed at predicting the daily prices of Airbnb listings in Florida. With the increasing popularity of Airbnb as an alternative to traditional accommodation options, understanding and predicting the factors that influence daily listing prices can be valuable for both hosts and travelers.
 
 ## Notebooks
