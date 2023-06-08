@@ -28,6 +28,5 @@ The dataset used in this project is based on the "listings-3.csv" file, which co
 
 You can access the dataset [here](http://insideairbnb.com/get-the-data/). 
 
-Note: Please ensure that you have the necessary permissions and comply with any applicable terms of use or licenses when accessing and using the dataset.
 
 
