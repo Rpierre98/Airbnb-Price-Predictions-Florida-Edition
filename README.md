@@ -69,6 +69,39 @@ The dataset used in this project is based on the "listings-3.csv" file, which co
 You can access the dataset [here](http://insideairbnb.com/get-the-data/).
 
 
+
+## Data Dictionary
+For detailed information about the variables used in the project, please refer to the [Data Dictionary](https://docs.google.com/spreadsheets/d/1iWCNJcSutYqpULSQHlNyGInUvHg2BoUGoNRIGa6Szc4/edit#gid=1322284596) provided in a Google Sheets document.
+
+The data dictionary below provides a description of the variables used in the project:
+
+| Variable                              | Description                                                          | Data Type       |
+| ------------------------------------- | -------------------------------------------------------------------- | --------------- |
+| `listings_cleaned`                    | The cleaned dataset containing Airbnb listing data.                   | DataFrame       |
+| `listings_cleaned['description_length']`| The length of the description for each listing.                       | Numeric (integer) |
+| `listings_cleaned['last_review']`      | The date of the last review for each listing.                         | Date            |
+| `listings_cleaned['last_review_month']`| The month of the last review for each listing.                        | Numeric (integer) |
+| `listings_cleaned['has_host']`         | Binary indicator for whether a listing has a host or not.             | Numeric (integer) |
+| `listings_cleaned['is_popular_neighborhood']` | Binary indicator for whether a listing is located in a popular neighborhood. | Numeric (integer) |
+| `amenities_to_extract`                 | List of specific amenities to extract from the `amenities` column.    | List            |
+| `listings_cleaned[amenity]`            | Binary indicator for the presence of a specific amenity in a listing. | Numeric (integer) |
+| `listings_cleaned['total_amenities']`  | Total number of amenities for each listing.                           | Numeric (integer) |
+| `textual_columns`                      | List of textual columns to apply preprocessing.                       | List            |
+| `listings_cleaned[column]`             | Preprocessed textual column.                                          | Text/String     |
+| `processed_text`                       | Processed text after applying preprocessing steps.                    | Text/String     |
+| `listings_cleaned['name_length']`       | The length of the name of each listing.                               | Numeric (integer) |
+| `listings_cleaned['description_sentiment']` | Sentiment score of the description for each listing.                | Numeric (float) |
+| `listings_cleaned['has_reviews']`       | Binary indicator for whether a listing has reviews.                   | Numeric (integer) |
+| `listings_cleaned['days_since_last_review']` | Number of days since the last review for each listing.             | Numeric (integer) |
+| `numeric_features`                     | DataFrame containing numeric features for scaling.                    | DataFrame       |
+| `categorical_features`                 | DataFrame containing categorical features for encoding.               | DataFrame       |
+| `scaled_df`                            | DataFrame containing scaled numeric features.                         | DataFrame       |
+| `encoded_df`                           | DataFrame containing encoded categorical features.                    | DataFrame       |
+| `combined_df`                          | DataFrame containing scaled and encoded features.                      | DataFrame       |
+
+
+
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
