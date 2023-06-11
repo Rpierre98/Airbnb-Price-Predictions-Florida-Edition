@@ -1,5 +1,10 @@
 # Airbnb-Price-Predictions-Florida-Edition
-"The "Airbnb Price Predictions Florida Edition" is a data science capstone project aimed at predicting the daily prices of Airbnb listings in Florida. With the increasing popularity of Airbnb as an alternative to traditional accommodation options, understanding and predicting the factors that influence daily listing prices can be valuable for both hosts and travelers.
+
+## Problem Statement
+
+"The "Airbnb Price Predictions Florida Edition" is a data science project aimed at predicting the daily prices of Airbnb listings in Florida. With the increasing popularity of Airbnb as an alternative to traditional accommodation options, understanding and predicting the factors that influence daily listing prices is essential for both hosts and travelers. By leveraging machine learning techniques and analyzing various features of Airbnb listings, this project seeks to develop accurate price prediction models that can provide valuable insights to hosts for setting competitive prices and help travelers make informed decisions when booking accommodations. The project aims to uncover the key drivers of Airbnb prices in Florida, including location, property type, amenities, availability, and other relevant factors, ultimately enabling stakeholders to optimize their pricing strategies and enhance the overall Airbnb experience for both hosts and travelers."
+
+
 
 ## Notebooks
 
@@ -16,17 +21,55 @@ The project consists of three Jupyter notebooks:
 Here are some key findings from the project:
 
 - The exploratory data analysis revealed interesting insights about the dataset, such as the distribution of room types and neighborhoods, as well as the correlation between variables.
-- Feature engineering tasks, including temporal feature extraction, and handling missing values, enhanced the dataset and provided valuable information for modeling.
+- Feature engineering tasks, including text preprocessing, temporal feature extraction, and handling missing values, enhanced the dataset and provided valuable information for modeling.
+- The Gradient Boosting model demonstrated strong performance in predicting Airbnb prices, with a low mean squared error (MSE) and mean absolute error (MAE).
+- The LassoCV model also showed promising results, accurately estimating the daily prices of Airbnb listings.
+
+
+## Modeling Choices
+
+In the Modeling notebook, four models were trained to predict Airbnb prices: Linear Regression, RidgeCV, Gradient Boosting, and LassoCV. These models were chosen for their suitability in regression tasks and their ability to capture different types of relationships between features and the target variable.
+
+1. [Linear Regression] Linear regression is a simple and interpretable model that assumes a linear relationship between the features and the target variable.
+
+2. [Gradient Boosting] Gradient Boosting is an ensemble model that combines multiple weak predictors (decision trees) to create a strong predictive model. It sequentially builds the model, with each new tree learning from the errors of the previous trees. Gradient Boosting is known for its ability to handle complex relationships and provide high predictive accuracy.
+
+3. [LassoCV] LassoCV is a linear regression model that performs both feature selection and regularization. It applies L1 regularization to shrink the coefficients of irrelevant features to zero, effectively selecting the most relevant features for prediction. LassoCV helps improve model interpretability and can handle high-dimensional datasets.
+
+4. [RidgeCV] RidgeCV is a linear regression model with built-in cross-validation to determine the optimal regularization parameter (alpha). It helps to mitigate multicollinearity issues and can handle a large number of features.
+
+The evaluation metrics used to assess the performance of the models were mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), and R-squared (R^2). These metrics provide insights into the accuracy, precision, and goodness of fit of the price predictions.
+
+## Model Evaluation
+
+The performance of the different models in predicting Airbnb prices in Florida is summarized below:
+| Model              | RMSE     | R^2      | MSE     | MAE      |
+|--------------------|----------|----------|---------|----------|
+| Baseline           | 0.9173   | -        | -       | 0.4673   |
+| Linear Regression  | 570.72   | -3.55e+23 | 3.26e+23 | 35.84e+09 |
+| Gradient Boosting  | 0.7210   | 0.4333   | 0.5198  | 0.2619   |
+| LassoCV            | 0.8088   | 0.2869   | 0.6542  | 0.3183   |
+| RidgeCV            | 0.8093   | 0.2869   | 0.6549  | 0.3225   |
+
+The Gradient Boosting model outperformed the other models, achieving the lowest MSE and MAE scores. This indicates that it provides more accurate predictions of daily Airbnb prices in Florida.
+
 
 ## How to Use
 
+To replicate the project or use the provided models, follow these steps:
 
+1. Clone the repository to your local machine.
+2. Open and run the notebooks in the provided order: EDA/Cleaning, Feature Engineering, and Modeling.
+3. Follow the instructions within each notebook to load, preprocess, analyze, and model the data.
+4. Adapt the code and models to fit your specific requirements or use the provided models for predicting Airbnb prices in Florida.
 
 ## Dataset
 
 The dataset used in this project is based on the "listings-3.csv" file, which contains Airbnb listings in Broward County, Florida. The dataset was cleaned and preprocessed as part of the project.
 
-You can access the dataset [here](http://insideairbnb.com/get-the-data/). 
+You can access the dataset [here](http://insideairbnb.com/get-the-data/).
 
 
+## License
 
+This project is licensed under the [MIT License](LICENSE).
