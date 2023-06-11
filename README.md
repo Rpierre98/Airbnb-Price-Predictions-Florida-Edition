@@ -54,6 +54,16 @@ The performance of the different models in predicting Airbnb prices in Florida i
 The Gradient Boosting model outperformed the other models, achieving the lowest MSE and MAE scores. This indicates that it provides more accurate predictions of daily Airbnb prices in Florida.
 
 
+
+## Conclusion
+The dataset contains information about Airbnb listings in Florida, including various features such as the number of bedrooms, reviews per month, and the number of reviews. The analysis revealed that "Bedrooms," "Reviews Per Month," and "Number of Reviews" are among the top features that significantly impact the prediction of Airbnb prices in the given model. These variables showcase their importance in determining the pricing dynamics in the Florida Airbnb market**.
+
+After evaluating different regression models, including LassoCV, RidgeCV, and Gradient Boosting, we determined that the Gradient Boosting model performed the best, providing the most accurate predictions. The other models, LassoCV and RidgeCV, also performed reasonably well but were slightly less accurate. However, the basic Linear Regression model did not perform well at all. These results indicate that the Gradient Boosting model is the most reliable for making predictions in this scenario. Its ability to capture complex interactions between variables and handle non-linear relationships makes it well-suited for accurately predicting Airbnb prices in Florida.
+
+![Top Feature Importances](charts/top_feature_importances.png)
+
+
+
 ## How to Use
 
 To replicate the project or use the provided models, follow these steps:
