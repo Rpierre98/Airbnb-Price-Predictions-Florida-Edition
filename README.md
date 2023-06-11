@@ -2,7 +2,7 @@
 
 ## Problem Statement
 
-"The "Airbnb Price Predictions Florida Edition" is a data science project aimed at predicting the daily prices of Airbnb listings in Florida. With the increasing popularity of Airbnb as an alternative to traditional accommodation options, understanding and predicting the factors that influence daily listing prices is essential for both hosts and travelers. By leveraging machine learning techniques and analyzing various features of Airbnb listings, this project seeks to develop accurate price prediction models that can provide valuable insights to hosts for setting competitive prices and help travelers make informed decisions when booking accommodations. The project aims to uncover the key drivers of Airbnb prices in Florida, including location, property type, amenities, availability, and other relevant factors, ultimately enabling stakeholders to optimize their pricing strategies and enhance the overall Airbnb experience for both hosts and travelers."
+The "Airbnb Price Predictions Florida Edition" is a data science project aimed at predicting the daily prices of Airbnb listings in Florida. With the increasing popularity of Airbnb as an alternative to traditional accommodation options, understanding and predicting the factors that influence daily listing prices is essential for both hosts and travelers. By leveraging machine learning techniques and analyzing various features of Airbnb listings, this project seeks to develop accurate price prediction models that can provide valuable insights to hosts for setting competitive prices and help travelers make informed decisions when booking accommodations. The project aims to uncover the key drivers of Airbnb prices in Florida, including location, property type, amenities, availability, and other relevant factors, ultimately enabling stakeholders to optimize their pricing strategies and enhance the overall Airbnb experience for both hosts and travelers.
 
 
 
@@ -23,7 +23,6 @@ Here are some key findings from the project:
 - The exploratory data analysis revealed interesting insights about the dataset, such as the distribution of room types and neighborhoods, as well as the correlation between variables.
 - Feature engineering tasks, including text preprocessing, temporal feature extraction, and handling missing values, enhanced the dataset and provided valuable information for modeling.
 - The Gradient Boosting model demonstrated strong performance in predicting Airbnb prices, with a low mean squared error (MSE) and mean absolute error (MAE).
-- The LassoCV model also showed promising results, accurately estimating the daily prices of Airbnb listings.
 
 
 ## Modeling Choices
