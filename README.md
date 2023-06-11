@@ -62,16 +62,6 @@ After evaluating different regression models, including LassoCV, RidgeCV, and Gr
 ![Top Feature Importances](charts/top_feature_importances.png)
 
 
-
-## How to Use
-
-To replicate the project or use the provided models, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Open and run the notebooks in the provided order: EDA/Cleaning, Feature Engineering, and Modeling.
-3. Follow the instructions within each notebook to load, preprocess, analyze, and model the data.
-4. Adapt the code and models to fit your specific requirements or use the provided models for predicting Airbnb prices in Florida.
-
 ## Dataset
 
 The dataset used in this project is based on the "listings-3.csv" file, which contains Airbnb listings in Broward County, Florida. The dataset was cleaned and preprocessed as part of the project.
