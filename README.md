@@ -30,13 +30,13 @@ Here are some key findings from the project:
 
 In the Modeling notebook, four models were trained to predict Airbnb prices: Linear Regression, RidgeCV, Gradient Boosting, and LassoCV. These models were chosen for their suitability in regression tasks and their ability to capture different types of relationships between features and the target variable.
 
-1. [Linear Regression] Linear regression is a simple and interpretable model that assumes a linear relationship between the features and the target variable.
+1. Linear regression is a simple and interpretable model that assumes a linear relationship between the features and the target variable.
 
-2. [Gradient Boosting] Gradient Boosting is an ensemble model that combines multiple weak predictors (decision trees) to create a strong predictive model. It sequentially builds the model, with each new tree learning from the errors of the previous trees. Gradient Boosting is known for its ability to handle complex relationships and provide high predictive accuracy.
+2. Gradient Boosting is an ensemble model that combines multiple weak predictors (decision trees) to create a strong predictive model. It sequentially builds the model, with each new tree learning from the errors of the previous trees. Gradient Boosting is known for its ability to handle complex relationships and provide high predictive accuracy.
 
-3. [LassoCV] LassoCV is a linear regression model that performs both feature selection and regularization. It applies L1 regularization to shrink the coefficients of irrelevant features to zero, effectively selecting the most relevant features for prediction. LassoCV helps improve model interpretability and can handle high-dimensional datasets.
+3. LassoCV is a linear regression model that performs both feature selection and regularization. It applies L1 regularization to shrink the coefficients of irrelevant features to zero, effectively selecting the most relevant features for prediction. LassoCV helps improve model interpretability and can handle high-dimensional datasets.
 
-4. [RidgeCV] RidgeCV is a linear regression model with built-in cross-validation to determine the optimal regularization parameter (alpha). It helps to mitigate multicollinearity issues and can handle a large number of features.
+4. RidgeCV is a linear regression model with built-in cross-validation to determine the optimal regularization parameter (alpha). It helps to mitigate multicollinearity issues and can handle a large number of features.
 
 The evaluation metrics used to assess the performance of the models were mean squared error (MSE), root mean squared error (RMSE), mean absolute error (MAE), and R-squared (R^2). These metrics provide insights into the accuracy, precision, and goodness of fit of the price predictions.
 
