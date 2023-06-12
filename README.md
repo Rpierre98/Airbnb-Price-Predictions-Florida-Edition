@@ -50,7 +50,7 @@ The performance of the different models in predicting Airbnb prices in Florida i
 | LassoCV            | 0.8088   | 0.2869   | 0.6542  | 0.3183   |
 | RidgeCV            | 0.8093   | 0.2869   | 0.6549  | 0.3225   |
 
-The Gradient Boosting model outperformed the other models, achieving the lowest MSE and MAE scores. This indicates that it provides more accurate predictions of daily Airbnb prices in Florida.
+The Gradient Boosting model outperformed the other models, achieving the lowest MSE and MAE scores. This indicates that it provides more predictive accuracy of daily Airbnb prices in Florida.
 
 
 
